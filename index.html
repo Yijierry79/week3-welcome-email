@@ -24,7 +24,11 @@
   .brand-green{color:#AACC03!important;}
   .button-green{background:#AACC03!important;}
   a[href="https://www.streamax.com/resources/case-list.html"]{font-weight:600!important;}
-  .story-divider{height:1.5px;line-height:1.5px;font-size:1px;background:#102A4D;}
+  .story-divider{height:1px;line-height:1px;font-size:1px;background:#D7DEE5;}
+  .story-table{width:100%;table-layout:fixed;}
+  .story-media{width:48%;vertical-align:middle;}
+  .story-content{width:52%;padding-left:24px;vertical-align:top;}
+  .story-link-arrow{display:inline-block!important;width:9px!important;max-width:9px!important;height:auto!important;vertical-align:middle!important;}
   .footer-tagline-row{margin:0 auto 14px auto;}
 
   @media screen and (max-width:620px){
@@ -44,6 +48,9 @@
     .story-title{font-size:19px!important;line-height:23px!important;letter-spacing:0!important;}
     .voice-headline{font-size:22px!important;line-height:26px!important;white-space:nowrap!important;}
     .story-copy{font-size:14px!important;line-height:18px!important;}
+    .story-media,.story-content{display:block!important;width:100%!important;max-width:100%!important;box-sizing:border-box!important;}
+    .story-content{padding:18px 0 0 0!important;}
+    .story-image{width:100%!important;max-width:100%!important;height:auto!important;}
     .cta-table{width:100%!important;table-layout:fixed!important;}
     .cta-link{display:block!important;width:100%!important;padding-left:14px!important;padding-right:14px!important;}
     .footer-tagline-row{width:auto!important;max-width:100%!important;table-layout:auto!important;margin-left:auto!important;margin-right:auto!important;}
@@ -134,56 +141,68 @@
 
 <tr>
 <td class="main-pad" style="padding:0 46px;background:#ffffff;font-family:Arial,Helvetica,sans-serif;">
-<p style="margin:0 0 9px 0;font-size:12px;line-height:18px;color:#AACC03;font-weight:700;letter-spacing:1.4px;">Customer Voices</p>
-<h2 class="voice-headline" style="margin:0 0 5.5px 0;font-family:Arial,Helvetica,sans-serif;font-size:22px;line-height:26px;font-weight:700;letter-spacing:-.2px;color:#000000;white-space:nowrap;">Hear from the people behind the operations</h2>
-<p style="margin:0 0 9px 0;font-size:14px;line-height:21px;color:#526376;font-weight:400;">Real customers. Real operating experience.</p>
-<div class="story-divider" style="height:1.5px;line-height:1.5px;font-size:1px;background:#102A4D;">&nbsp;</div>
+<p style="margin:0 0 8px 0;font-size:12px;line-height:18px;color:#AACC03;font-weight:700;letter-spacing:1.2px;">Customer Voices</p>
+<h2 class="voice-headline" style="margin:0 0 7px 0;font-family:Arial,Helvetica,sans-serif;font-size:22px;line-height:27px;font-weight:700;letter-spacing:-.2px;color:#102A4D;white-space:nowrap;">Hear from the people behind the operations</h2>
+<p style="margin:0 0 18px 0;font-size:14px;line-height:21px;color:#526376;font-weight:400;">Real customers. Real operating experience.</p>
+<div class="story-divider" style="height:1px;line-height:1px;font-size:1px;background:#D7DEE5;">&nbsp;</div>
 </td>
 </tr>
 
 <!-- STORY 1 -->
 <tr>
-<td class="main-pad" style="padding:22px 46px 0 46px;background:#ffffff;font-family:Arial,Helvetica,sans-serif;">
-<img alt="Bongo IOT customer interview" class="story-image" src="assets/customer-bongo.png" style="display:block;width:508px;max-width:508px;height:auto;" width="508"/>
-<h3 class="story-title" style="margin:20px 0 13px 0;font-family:Arial,Helvetica,sans-serif;font-size:20px;line-height:24px;font-weight:700;letter-spacing:0;color:#102A4D;">Bongo IOT: From tracking to fleet intelligence</h3>
-<p class="story-copy" style="margin:0 0 15px 0;font-size:14px;line-height:18px;color:#526376;">See how Bongo IOT helped fleets in South Asia move beyond basic tracking toward AI video telematics and driver behavior intelligence.</p>
-<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin:0 0 21px 0;">
-<tr><td align="center" style="background:#ffffff;"><a href="https://www.streamax.com/resources-blog-proof/bongo-iot-bangladesh-fleet-intelligence.html" target="_blank" style="display:inline-block;min-width:164px;padding:9px 14px;font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:21px;font-weight:700;color:#102A4D;text-decoration:none;border:1px solid #102A4D;border-radius:8px;">Read the Story</a></td></tr>
+<td class="main-pad" style="padding:24px 46px 0 46px;background:#ffffff;font-family:Arial,Helvetica,sans-serif;">
+<table border="0" cellpadding="0" cellspacing="0" class="story-table" role="presentation" style="width:100%;table-layout:fixed;" width="100%">
+<tr>
+<td class="story-media" style="width:48%;vertical-align:middle;" valign="middle" width="48%"><img alt="Bongo IOT customer interview" class="story-image" src="assets/story-bongo.png" style="display:block;width:244px;max-width:100%;height:auto;" width="244"/></td>
+<td class="story-content" style="width:52%;padding-left:24px;vertical-align:top;font-family:Arial,Helvetica,sans-serif;" valign="top" width="52%">
+<h3 class="story-title" style="margin:0 0 11px 0;font-family:Arial,Helvetica,sans-serif;font-size:17px;line-height:21px;font-weight:700;letter-spacing:-.1px;color:#102A4D;">Bongo IOT: From tracking to fleet intelligence</h3>
+<p class="story-copy" style="margin:0 0 13px 0;font-size:12px;line-height:16px;color:#526376;">See how Bongo IOT helped fleets in South Asia move beyond basic tracking toward AI video telematics and driver behavior intelligence.</p>
+<a href="https://www.streamax.com/resources-blog-proof/bongo-iot-bangladesh-fleet-intelligence.html" target="_blank" style="display:inline-block;font-family:Arial,Helvetica,sans-serif;font-size:13px;line-height:18px;font-weight:700;color:#102A4D;text-decoration:none;">Read the Story&nbsp;&nbsp;<img alt="" aria-hidden="true" class="story-link-arrow" height="8" role="presentation" src="assets/story-link-chevron.png" style="display:inline-block;width:9px;max-width:9px;height:auto;vertical-align:middle;" width="9"/></a>
+</td>
+</tr>
 </table>
-<div class="story-divider" style="height:1.5px;line-height:1.5px;font-size:1px;background:#102A4D;">&nbsp;</div>
+<div class="story-divider" style="height:1px;line-height:1px;font-size:1px;background:#D7DEE5;margin-top:24px;">&nbsp;</div>
 </td>
 </tr>
 
 <!-- STORY 2 -->
 <tr>
-<td class="main-pad" style="padding:31px 46px 0 46px;background:#ffffff;font-family:Arial,Helvetica,sans-serif;">
-<img alt="ACTC customer interview" class="story-image" src="assets/customer-actc.png" style="display:block;width:508px;max-width:508px;height:auto;" width="508"/>
-<h3 class="story-title" style="margin:20px 0 14px 0;font-family:Arial,Helvetica,sans-serif;font-size:20px;line-height:24px;font-weight:700;letter-spacing:0;color:#102A4D;">ACTC: Restoring public transit in the Middle East</h3>
-<p class="story-copy" style="margin:0 0 15px 0;font-size:14px;line-height:18px;color:#526376;">Discover how route optimization and passenger-flow analytics contributed to the modernization of a national bus network in the Middle East.</p>
-<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin:0 0 21px 0;">
-<tr><td align="center" style="background:#ffffff;"><a href="https://www.streamax.com/resources-blog-proof/actc-lebanon-transit-modernization.html" target="_blank" style="display:inline-block;min-width:164px;padding:9px 14px;font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:21px;font-weight:700;color:#102A4D;text-decoration:none;border:1px solid #102A4D;border-radius:8px;">Read the Story</a></td></tr>
+<td class="main-pad" style="padding:24px 46px 0 46px;background:#ffffff;font-family:Arial,Helvetica,sans-serif;">
+<table border="0" cellpadding="0" cellspacing="0" class="story-table" role="presentation" style="width:100%;table-layout:fixed;" width="100%">
+<tr>
+<td class="story-media" style="width:48%;vertical-align:middle;" valign="middle" width="48%"><img alt="ACTC customer interview" class="story-image" src="assets/story-actc.png" style="display:block;width:244px;max-width:100%;height:auto;" width="244"/></td>
+<td class="story-content" style="width:52%;padding-left:24px;vertical-align:top;font-family:Arial,Helvetica,sans-serif;" valign="top" width="52%">
+<h3 class="story-title" style="margin:0 0 11px 0;font-family:Arial,Helvetica,sans-serif;font-size:17px;line-height:21px;font-weight:700;letter-spacing:-.1px;color:#102A4D;">ACTC: Restoring public transit in the Middle East</h3>
+<p class="story-copy" style="margin:0 0 13px 0;font-size:12px;line-height:16px;color:#526376;">Discover how route optimization and passenger-flow analytics contributed to the modernization of a national bus network in the Middle East.</p>
+<a href="https://www.streamax.com/resources-blog-proof/actc-lebanon-transit-modernization.html" target="_blank" style="display:inline-block;font-family:Arial,Helvetica,sans-serif;font-size:13px;line-height:18px;font-weight:700;color:#102A4D;text-decoration:none;">Read the Story&nbsp;&nbsp;<img alt="" aria-hidden="true" class="story-link-arrow" height="8" role="presentation" src="assets/story-link-chevron.png" style="display:inline-block;width:9px;max-width:9px;height:auto;vertical-align:middle;" width="9"/></a>
+</td>
+</tr>
 </table>
-<div class="story-divider" style="height:1.5px;line-height:1.5px;font-size:1px;background:#102A4D;">&nbsp;</div>
+<div class="story-divider" style="height:1px;line-height:1px;font-size:1px;background:#D7DEE5;margin-top:24px;">&nbsp;</div>
 </td>
 </tr>
 
 <!-- STORY 3 -->
 <tr>
-<td class="main-pad" style="padding:31px 46px 0 46px;background:#ffffff;font-family:Arial,Helvetica,sans-serif;">
-<img alt="Tawasul customer interview" class="story-image" src="assets/customer-tawasul.png" style="display:block;width:508px;max-width:508px;height:auto;" width="508"/>
-<h3 class="story-title" style="margin:20px 0 14px 0;font-family:Arial,Helvetica,sans-serif;font-size:20px;line-height:24px;font-weight:700;letter-spacing:0;color:#102A4D;">Tawasul: Unifying UAE taxi &amp; limousine operations</h3>
-<p class="story-copy" style="margin:0 0 15px 0;font-size:14px;line-height:18px;color:#526376;">See how customization and a unified Mobile Data Terminal brought UAE taxi, limousine, and multiple e-hailing workflows into one in-vehicle experience.</p>
-<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin:0 0 21px 0;">
-<tr><td align="center" style="background:#ffffff;"><a href="https://www.streamax.com/resources-blog-proof/tawasul-unifies-taxi-and-limousine-fleet-with-Streamax.html" target="_blank" style="display:inline-block;min-width:164px;padding:9px 14px;font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:21px;font-weight:700;color:#102A4D;text-decoration:none;border:1px solid #102A4D;border-radius:8px;">Read the Story</a></td></tr>
+<td class="main-pad" style="padding:24px 46px 14px 46px;background:#ffffff;font-family:Arial,Helvetica,sans-serif;">
+<table border="0" cellpadding="0" cellspacing="0" class="story-table" role="presentation" style="width:100%;table-layout:fixed;" width="100%">
+<tr>
+<td class="story-media" style="width:48%;vertical-align:middle;" valign="middle" width="48%"><img alt="Tawasul customer interview" class="story-image" src="assets/story-tawasul.png" style="display:block;width:244px;max-width:100%;height:auto;" width="244"/></td>
+<td class="story-content" style="width:52%;padding-left:24px;vertical-align:top;font-family:Arial,Helvetica,sans-serif;" valign="top" width="52%">
+<h3 class="story-title" style="margin:0 0 11px 0;font-family:Arial,Helvetica,sans-serif;font-size:17px;line-height:21px;font-weight:700;letter-spacing:-.1px;color:#102A4D;">Tawasul: Unifying UAE taxi &amp; limousine operations</h3>
+<p class="story-copy" style="margin:0 0 13px 0;font-size:12px;line-height:16px;color:#526376;">See how customization and a unified Mobile Data Terminal brought UAE taxi, limousine, and multiple e-hailing workflows into one in-vehicle experience.</p>
+<a href="https://www.streamax.com/resources-blog-proof/tawasul-unifies-taxi-and-limousine-fleet-with-Streamax.html" target="_blank" style="display:inline-block;font-family:Arial,Helvetica,sans-serif;font-size:13px;line-height:18px;font-weight:700;color:#102A4D;text-decoration:none;">Read the Story&nbsp;&nbsp;<img alt="" aria-hidden="true" class="story-link-arrow" height="8" role="presentation" src="assets/story-link-chevron.png" style="display:inline-block;width:9px;max-width:9px;height:auto;vertical-align:middle;" width="9"/></a>
+</td>
+</tr>
 </table>
-<div class="story-divider" style="height:1.5px;line-height:1.5px;font-size:1px;background:#102A4D;">&nbsp;</div>
+<div class="story-divider" style="height:1px;line-height:1px;font-size:1px;background:#D7DEE5;margin-top:24px;">&nbsp;</div>
 </td>
 </tr>
 
 <!-- PREFERENCES CTA -->
 <tr>
-<td class="main-pad" align="center" style="padding:21px 46px 44px 46px;background:#ffffff;font-family:Arial,Helvetica,sans-serif;text-align:center;">
-<img alt="" aria-hidden="true" role="presentation" src="assets/group14.png" style="display:block;width:22px;max-width:22px;height:auto;margin:0 auto 16px auto;" width="22"/>
+<td class="main-pad" align="center" style="padding:7px 46px 44px 46px;background:#ffffff;font-family:Arial,Helvetica,sans-serif;text-align:center;">
+<img alt="" aria-hidden="true" role="presentation" src="assets/group14.png" style="display:block;width:22px;max-width:22px;height:auto;margin:0 auto 10px auto;" width="22"/>
 <h2 style="margin:0 0 24px 0;font-family:Arial,Helvetica,sans-serif;font-size:24px;line-height:29px;font-weight:700;letter-spacing:0;color:#102A4D;text-align:center;">Make Future Updates<br/>More Relevant</h2>
 <table border="0" cellpadding="0" cellspacing="0" class="cta-table" role="presentation" style="width:100%;margin:0;" width="100%">
 <tr>
